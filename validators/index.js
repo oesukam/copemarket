@@ -1,0 +1,21 @@
+module.exports = {
+  user: require('./user'),
+  event: require('./event'),
+  category: require('./category'),
+  place: require('./place'),
+  job: require('./job'),
+  company: require('./company'),
+  item: require('./item'),
+  comment: require('./comment'),
+  content: require('./content'),
+  conversation: require('./conversation'),
+  guide: require('./guide'),
+  message: require('./message'),
+  notification: require('./notification'),
+  report: require('./report'),
+  review: require('./review'),
+  house: require('./house'),
+  relation: require('./relation'),
+  phoneVerification: require('./phoneVerification'),
+  coupon: require('./coupon')
+}

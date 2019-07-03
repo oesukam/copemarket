@@ -1,0 +1,50 @@
+// Default store module mutatation type
+// Default store module mutatation type
+export const LOADING_APP = 'LOADING_APP';
+export const SET_AUTH_MODEL = 'SET_AUTH_MODEL';
+export const GET_AUTH_MODEL = 'GET_AUTH_MODEL';
+
+
+// COUNTERS
+export const SET_COUNTER = 'SET_COUNTER';
+export const CLEAR_COUNTER_ALL = 'CLEAR_COUNTER_ALL';
+
+
+// USER
+export const SET_APP_LANGUAGE = 'SET_APP_LANGUAGE';
+export const CHANGE_LANGUAGE = 'CHANGE_LANGUAGE';
+export const SET_TOKEN = 'SET_TOKEN';
+export const SET_USER = 'SET_USER';
+export const SET_USER_FIELD = 'SET_USER_FIELD';
+export const SET_LOGIN = 'SET_LOGIN';
+export const SET_LOGOUT = 'SET_LOGOUT';
+export const GET_CURRENT_USER = 'GET_CURRENT_USER';
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const SET_USER_PRODUCTS = 'SET_USER_PRODUCTS';
+export const ADD_USER_PRODUCT = 'SET_USER_PRODUCT';
+export const REMOVE_USER_APPLICATION = 'REMOVE_USER_APPLICATION';
+
+// PRODUCTS
+export const CLEAR_PRODUCTS = 'CLEAR_PRODUCTS';
+export const SET_PRODUCT = 'SET_PRODUCT';
+export const SET_PRODUCTS = 'SET_PRODUCTS';
+export const SET_PRODUCTS_LATEST = 'SET_PRODUCTS_LATEST';
+
+// FORMS
+export const CLEAR_FORM_ALL = 'CLEAR_FORM_ALL';
+export const CLEAR_FORM_REGISTRATION = 'CLEAR_FORM_REGISTRATION';
+export const CLEAR_FORM_PRODUCT = 'CLEAR_FORM_PRODUCT';
+export const SET_FORM_REGISTRATION = 'SET_FORM_REGISTRATION';
+export const SET_FORM_PRODUCT = 'SET_FORM_PRODUCT';
+export const SET_FORM_PRODUCT_ALL = 'SET_FORM_PRODUCT_ALL';
+
+
+
+// MOCKS
+export const CLEAR_MOCKS_ALL = 'CLEAR_MOCKS_ALL'
+export const SET_CITIES = 'SET_CITIES'
+export const GET_CITIES = 'GET_CITIES'
+export const GET_PROVINCES = 'GET_PROVINCES'
+export const SET_PROVINCES = 'SET_PROVINCES'
+export const GET_CATEGORIES = 'GET_CATEGORIES'
+export const SET_CATEGORIES = 'SET_CATEGORIES'

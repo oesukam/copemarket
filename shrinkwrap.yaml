@@ -1,0 +1,46 @@
+dependencies:
+  swiper: 4.3.5
+  vue-awesome-swiper: 3.1.3
+packages:
+  /dom7/2.0.7:
+    dependencies:
+      ssr-window: 1.0.1
+    dev: false
+    resolution:
+      integrity: sha512-1M6HYWK1NZR3JyrRYy1JjFc0U+eB+OqzPjeAB05TlY87RDo1XJHS1NdUoNGPwDfZqKyCRTO4NkyCosUsyLiKGQ==
+  /object-assign/4.1.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  /ssr-window/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-dgFqB+f00LJTEgb6UXhx0h+SrG50LJvti2yMKMqAgzfUmUXZrLSv2fjULF7AWGwK25EXu8+smLR3jYsJQChPsg==
+  /swiper/4.3.5:
+    dependencies:
+      dom7: 2.0.7
+      ssr-window: 1.0.1
+    dev: false
+    engines:
+      node: '>= 4.7.0'
+    requiresBuild: true
+    resolution:
+      integrity: sha512-zFRvMZNFFrXGJWRSJLeD8wkHcIr5uStqk+Cv1fvPDtZxB687PurfjYgK1Ga7j7XQGm5xfCqGMSELNRSaBn36gA==
+  /vue-awesome-swiper/3.1.3:
+    dependencies:
+      object-assign: 4.1.1
+      swiper: 4.3.5
+    dev: false
+    engines:
+      node: '>= 4.0.0'
+      npm: '>= 3.0.0'
+    resolution:
+      integrity: sha512-E7suzkyApO8vNZbgdEnjSmnpsmQZyRvSVXJ7sey3XYwKPOkLhH3+GnHroBw+5PZIQXvWBwdCeQsPG1xQ1r1Rhg==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 8
+shrinkwrapVersion: 3
+specifiers:
+  swiper: ^4.3.5
+  vue-awesome-swiper: ^3.1.3

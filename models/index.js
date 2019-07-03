@@ -1,0 +1,5 @@
+module.exports.UserSchema = require('./User')
+module.exports.ProvinceSchema = require('./Province')
+module.exports.CitySchema = require('./City')
+module.exports.CategorySchema = require('./Category')
+module.exports.ProductSchema = require('./Product')
